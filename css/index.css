@@ -1,419 +1,484 @@
-.border-radius{
-    border-radius: 3px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-.h-100{
-    height: 100%;
+
+.border-radius {
+  border-radius: 3px;
 }
-.w-75{
-    width: 75%;
+.h-100 {
+  height: 100%;
 }
-.w-10{
-    width: 2%;
+.w-75 {
+  width: 75%;
 }
-.width-7{
-    width: calc(100%/7);
+.w-10 {
+  width: 2%;
 }
-.width-8{
-    width: calc(100%/8);
+.width-7 {
+  width: calc(100% / 7);
+}
+.width-8 {
+  width: calc(100% / 8);
 }
 
 /* section 1 */
-.custom-link{
-    color: black;
-    text-decoration: none;
+.custom-link {
+  color: black;
+  text-decoration: none;
 }
-.custom-link:hover{
-    color: red;
+.custom-link:hover {
+  color: red;
 }
 .cards-container-section2 {
-    top: 100%;
-    left: 0;
-    background: #ebeff0;
-    border-radius: 10px;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(15px);
-    transition: 0.3s ease;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    z-index: 999;
+  top: 100%;
+  left: 0;
+  background: #ebeff0;
+  border-radius: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  transition: 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  z-index: 999;
 }
 
 .menu-item:hover .cards-container-section2 {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 /* section 2 sliders */
-.custom-link-2{
-    color: black;
-    background-color: transparent;
+.custom-link-2 {
+  color: black;
+  background-color: transparent;
 }
-.custom-link-2:hover{
-    color: white;
-    background-color: black;
+.custom-link-2:hover {
+  color: white;
+  background-color: black;
 }
-.ls-font{
-    font-size: 0.8rem;
-    font-weight: bold;
+.ls-font {
+  font-size: 0.8rem;
+  font-weight: bold;
 }
-.section-5{
-    width: 75%;
-    height: 75%;
-    aspect-ratio: 1/1;
+.section-5 {
+  width: 75%;
+  height: 75%;
+  aspect-ratio: 1/1;
 }
-.fit-content{
-    height: fit-content;
+.fit-content {
+  height: fit-content;
 }
 .card-hover .img-hover {
-    width: 50%;
-    transition: 0.3s ease-in-out;
+  width: 50%;
+  transition: 0.3s ease-in-out;
 }
 .card-hover:hover .img-hover {
-    transform: scale(1.1) translateY(-15px);
+  transform: scale(1.1) translateY(-15px);
 }
 .card-hover-7 .img-hover-7 {
-    transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .card-hover-7:hover .img-hover-7 {
-    transform: scale(1.1) translateY(-15px);
+  transform: scale(1.1) translateY(-15px);
 }
 .custome-link-3 i {
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
 .custome-link-3:hover i {
-    color: black;
+  color: black;
 }
-.discount{
-    width: 4rem;
-    height: 4rem;
-    top: 6%;
-    right: 0;
+.discount {
+  width: 4rem;
+  height: 4rem;
+  top: 6%;
+  right: 0;
 }
-
 
 .item {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.3);
-    opacity: 0;
-    transition: 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: 0.3s ease;
 }
 
 .overlay span {
-    color: white;
-    font-size: 22px;
+  color: white;
+  font-size: 22px;
 }
 
 .item:hover .overlay {
-    opacity: 1;
+  opacity: 1;
 }
 
-.nav-next-prev{
-    transition: 0.3s ease;
-    color: black;
+.nav-next-prev {
+  transition: 0.3s ease;
+  color: black;
 }
-.nav-next-prev:hover button span{
-    background-color: black;
+.nav-next-prev:hover button span {
+  background-color: black;
 }
 .i-card {
-    opacity: 0;
-    transform: translateY(-10px);
-    transition: 0.3s ease;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: 0.3s ease;
 }
 
 .card:hover .i-card {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.ancor-section6{
-    color: black;
-    background-color: #e9ecef;
-    transition: all 0.3s ease;
+.ancor-section6 {
+  color: black;
+  background-color: #e9ecef;
+  transition: all 0.3s ease;
 }
 .ancor-section6:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 /* section-7 */
-.a-underline{
-    position: relative;
-    text-decoration: none;
-    overflow: hidden;
+.a-underline {
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
 }
 
-.a-underline::after{
-    content: '';
-    position: absolute;
-    bottom: 0; left: 0;
-    width: 100%; height: 2px;
-    background: currentColor;
-    transform: translateX(-101%);
-    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+.a-underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  transform: translateX(-101%);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.a-underline:hover::after{
-    transform: translateX(0);
+.a-underline:hover::after {
+  transform: translateX(0);
 }
 
 /* section-8 */
 .product-card {
-    position: relative;
-    z-index: 1;
-    border-bottom: 1px solid #dee2e6;
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .hover-bar {
-    opacity: 0;
-    transition: opacity 0.3s ease, bottom 0.3s ease;
-    z-index: 20;
+  opacity: 0;
+  transition:
+    opacity 0.3s ease,
+    bottom 0.3s ease;
+  z-index: 20;
 }
 .product-card:hover {
-    border-bottom: none;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0; 
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .product-card:hover .hover-bar {
-    opacity: 1;
-    bottom: -30px;
-    overflow: hidden;
+  opacity: 1;
+  bottom: -30px;
+  overflow: hidden;
 }
 /* section-9 */
 .slider-mover {
-    height: 5rem;
-    background-size: cover;
-    background-position: center;
-    border: none;
+  height: 5rem;
+  background-size: cover;
+  background-position: center;
+  border: none;
 }
 .carousel-indicators-1 [data-bs-target] {
-    height: 3rem;
-    width: 3rem;
-    text-indent: 0;
-    opacity: 1;
-    position: static;
-    transform: none;
+  height: 3rem;
+  width: 3rem;
+  text-indent: 0;
+  opacity: 1;
+  position: static;
+  transform: none;
 }
-.button-2{
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    height: 3rem;
-    transition: 0.3s ease-in-out;
+.button-2 {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  height: 3rem;
+  transition: 0.3s ease-in-out;
 }
-.button-2:hover{
-    background-color: white;
-    color: black;
+.button-2:hover {
+  background-color: white;
+  color: black;
 }
 .discount-animation {
-    animation: pulse 1.5s infinite ease-in-out;
+  animation: pulse 1.5s infinite ease-in-out;
 }
 
 @keyframes pulse {
-    0% {
-        transform: translate(-50%, -50%) scale(1);
-    }
-    50% {
-        transform: translate(-50%, -50%) scale(1.2);
-    }
-    100% {
-        transform: translate(-50%, -50%) scale(1);
-    }
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
 }
 /* section-10 */
 
 .owl-nav button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%) scale(0.8);
-    width: 2rem;
-    height: 2.5rem;
-    background: white !important;
-    color: black !important;
-    border-radius: 5px;
-    border: none;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) scale(0.8);
+  width: 2rem;
+  height: 2.5rem;
+  background: white !important;
+  color: black !important;
+  border-radius: 5px;
+  border: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
 }
 
 .owl-nav .owl-prev {
-    left: -10px;
+  left: -10px;
 }
 
 .owl-nav .owl-next {
-    right: -10px;
+  right: -10px;
 }
 .carousel-10:hover .owl-nav button {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 .carousel-5:hover .owl-nav button {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 .carousel-11:hover .owl-nav button {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .owl-nav button:hover {
-    background: black !important;
-    color: white !important;
+  background: black !important;
+  color: white !important;
 }
 
 .owl-nav button span {
-    display: block;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    text-align: center;
-    background: none !important;
-    color: inherit;
+  display: block;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  background: none !important;
+  color: inherit;
 }
 
 /* section 11 */
-.ancor-section11{
-    color: black;
-    background-color: #ffffff;
-    transition: all 0.3s ease;
+.ancor-section11 {
+  color: black;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
 }
 .ancor-section11:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 .card-11 {
-    overflow: hidden;
+  overflow: hidden;
 }
 .img-section11 {
-    transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
 .card:hover .img-section11 {
-    transform: rotate(3deg) scale(1.1);
+  transform: rotate(3deg) scale(1.1);
 }
 
 /* footer */
-.custom-link-3{
-    color: white;
-    text-decoration: none;
+.custom-link-3 {
+  color: white;
+  text-decoration: none;
 }
-.custom-link-3:hover{
-    color: red;
+.custom-link-3:hover {
+  color: red;
 }
-.placeholder::placeholder{
-    color: #999999;
+.placeholder::placeholder {
+  color: #999999;
 }
-.border-footer{
-    border: #999999 solid 0.5px;
-    border-radius: 10px;
+.border-footer {
+  border: #999999 solid 0.5px;
+  border-radius: 10px;
 }
-
 
 /* contact us */
-.button-contact{
-    background-color: black;
-    color: #ffffff;
-    transition: all 0.3s ease;
-    border-radius: 5px;
+.button-contact {
+  background-color: black;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
 }
-.button-contact:hover{
-    background-color: red;
+.button-contact:hover {
+  background-color: red;
 }
-
 
 /* product page */
-.navigator-section3{
-    text-decoration: none;
-    transition: all 0.3s ease;
+.navigator-section3 {
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
-.navigator-section3:hover{
-    text-decoration: underline;
+.navigator-section3:hover {
+  text-decoration: underline;
 }
-
 
 /* thumbnails */
 .thumb-btn {
-    background: transparent;
-    margin-bottom: 10px;
-    cursor: pointer;
-    border: 2px solid #c3bdbd;
-    border-radius: 8px;
-    transition: 0.3s;
-    width: 6rem; 
-    height: 6rem;
+  background: transparent;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 2px solid #c3bdbd;
+  border-radius: 8px;
+  transition: 0.3s;
+  width: 6rem;
+  height: 6rem;
 }
-.thumb-btn-2{
-    border: 1px solid #c3bdbd;
-    width: 3rem;
-    height: 3rem;
-    background-color: #ffffff;
-    border-radius: 5px;
+.thumb-btn-2 {
+  border: 1px solid #c3bdbd;
+  width: 3rem;
+  height: 3rem;
+  background-color: #ffffff;
+  border-radius: 5px;
 }
 .thumb-btn-2:hover {
-    border-color: black;
+  border-color: black;
 }
-.thumb-btn-2-img{
-    height: 2rem;
-    width: 2rem;
-    display: block;
+.thumb-btn-2-img {
+  height: 2rem;
+  width: 2rem;
+  display: block;
 }
 
 .thumb-btn:hover {
-    border-color: black;
+  border-color: black;
 }
 
 .thumb-btn img {
-    height: 4rem;
-    width: 4rem;
-    border-radius: 8px;
-    display: block;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 8px;
+  display: block;
 }
 
-.button-red-hover{
-    background-color: red;
-    color: #ffffff;
-    border: none;
-    height: 3rem;
-    border-radius:10px ;
-    transition: 0.3s ease-in-out;
-
+.button-red-hover {
+  background-color: red;
+  color: #ffffff;
+  border: none;
+  height: 3rem;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
 }
-.button-red-hover:hover{
-    background-color: #ffffff;
-    color: red;
-    border: red 1px solid;
-}
-
-.button-green{
-    background-color: #26753c;
-    color: #ffffff;
-    transition: 0.3s ease-in-out;
-    border-radius: 5px;
-    border: none;
-}
-.button-green:hover{
-    background-color: transparent;
-    color:#26753c ;
-    border: #26753c 1px solid;
+.button-red-hover:hover {
+  background-color: #ffffff;
+  color: red;
+  border: red 1px solid;
 }
 
-.a-muted{
-    color:#999999;
-    transition: 0.3s ease-in-out;
+.button-green {
+  background-color: #26753c;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+  border: none;
 }
-.a-muted:hover{
-    color: black;
+.button-green:hover {
+  background-color: transparent;
+  color: #26753c;
+  border: #26753c 1px solid;
 }
-.border-productpage{
-    border: 1px solid black;
-    border-radius: 5px;
+
+.a-muted {
+  color: #999999;
+  transition: 0.3s ease-in-out;
+}
+.a-muted:hover {
+  color: black;
+}
+.border-productpage {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* =====================================================
+   RESPONSIVE ADDITIONS (existing styles above unchanged)
+   These replace the inline styles that could not adapt.
+   ===================================================== */
+
+/* never let media exceed its container */
+img,
+iframe {
+  max-width: 100%;
+}
+
+/* "Contact us" heading (was inline font-size: 5rem) */
+.contact-title {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+}
+
+/* contact info row (was inline width 75% + margin-left 18%) */
+.contact-row {
+  width: 100%;
+}
+
+/* form rows (was w-75 + inline margin-left 13%) */
+.form-block {
+  width: 100%;
+}
+
+/* submit button (was inline width: 59.5rem) */
+.button-contact-wide {
+  width: 100%;
+}
+
+/* footer payment icons (was w-25) */
+.payment-icons {
+  width: 50%;
+}
+
+/* lg and up: original desktop values */
+@media (min-width: 992px) {
+  .contact-row {
+    width: 75%;
+    margin-left: 18%;
+  }
+
+  .form-block {
+    width: 75%;
+    margin-left: 13%;
+  }
+
+  .button-contact-wide {
+    width: 59.5rem;
+    max-width: calc(100% - 1rem);
+  }
+}
+
+@media (min-width: 768px) {
+  .payment-icons {
+    width: 25%;
+  }
 }
